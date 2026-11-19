@@ -4,6 +4,25 @@
     {
       "type": "basic",
       "from": {
+        "key_code": "z",
+        "modifiers": {
+          "mandatory": [
+            "control"
+          ]
+        }
+      },
+      "to": [
+        {
+          "key_code": "z",
+          "modifiers": [
+            "left_command"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "basic",
+      "from": {
         "key_code": "home",
         "modifiers": {
           "mandatory": [

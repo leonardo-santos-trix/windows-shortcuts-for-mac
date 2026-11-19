@@ -10,6 +10,7 @@ Atalhos com Control para macOS usando o Karabiner-Elements. A configuração inc
 | Ctrl+C | Copiar |
 | Ctrl+V | Colar |
 | Ctrl+A | Selecionar tudo |
+| Ctrl+Z | Desfazer |
 | Ctrl+← | Mover uma palavra à esquerda |
 | Ctrl+→ | Mover uma palavra à direita |
 | Ctrl+Shift+← | Selecionar uma palavra à esquerda |
