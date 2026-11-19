@@ -1,5 +1,7 @@
 # Configuração automática dos atalhos do Windows no macOS
 
+Português (Brasil) · [English](SETUP-WITH-AI.en.md)
+
 Entregue este arquivo a uma IA com acesso ao terminal, à internet e à interface gráfica do Mac de destino e peça que execute as instruções. O resultado esperado é a regra do repositório instalada, ativa e verificada.
 
 ## Instrução para a IA executora

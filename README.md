@@ -1,5 +1,7 @@
 # Atalhos do Windows no Mac
 
+Português (Brasil) · [English](README.en.md)
+
 Atalhos com Control para macOS usando o Karabiner-Elements. A configuração inclui navegação, seleção de texto, copiar, recortar e colar, além da personalização Ctrl+Y para apagar a linha atual.
 
 ## Atalhos
