@@ -20,6 +20,7 @@ Configuração pessoal para o Karabiner-Elements, exportada do perfil ativo em 1
 | Ctrl+End | Fim do documento |
 | Shift+End | Selecionar até o fim da linha |
 | Ctrl+Shift+End | Selecionar até o fim do documento |
+| Ctrl+Shift+Home | Selecionar até o início do documento |
 | Ctrl+Y | Apagar a linha atual |
 
 ## Instalação
