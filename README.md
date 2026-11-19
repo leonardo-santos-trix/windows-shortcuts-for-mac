@@ -11,10 +11,15 @@ Atalhos com Control para macOS usando o Karabiner-Elements. A configuração inc
 | Ctrl+V | Colar |
 | Ctrl+A | Selecionar tudo |
 | Ctrl+Z | Desfazer |
+| Ctrl+Shift+Z | Refazer |
+| Ctrl+Backspace | Apagar uma palavra à esquerda |
+| Ctrl+Delete | Apagar uma palavra à direita |
 | Ctrl+← | Mover uma palavra à esquerda |
 | Ctrl+→ | Mover uma palavra à direita |
 | Ctrl+Shift+← | Selecionar uma palavra à esquerda |
 | Ctrl+Shift+→ | Selecionar uma palavra à direita |
+| Ctrl+Shift+↑ | Selecionar até o início do parágrafo |
+| Ctrl+Shift+↓ | Selecionar até o fim do parágrafo |
 | Home | Início da linha |
 | End | Fim da linha |
 | Ctrl+Home | Início do documento |
@@ -38,6 +43,10 @@ O arquivo contém uma regra individual. Ao aplicá-lo, incorpore a regra ao perf
 ## Comportamento e verificação
 
 Control e Shift aceitam as teclas de ambos os lados. Os remapeamentos estão limitados às combinações da tabela.
+
+As seleções por palavra usam Option+Shift+←/→ e as seleções por parágrafo usam Option+Shift+↑/↓. A seleção mantém a âncora do editor, permitindo ampliar ou reduzir o trecho selecionado. A exclusão por palavra usa Option+Backspace e Option+Delete. Refazer usa Command+Shift+Z. Os limites de palavra e parágrafo seguem o comportamento do editor.
+
+Os mapeamentos foram conferidos no JSON e sincronizados com o perfil ativo. Em 19/11/2026, o teste automatizado no Editor de Texto não confirmou a exclusão por palavra. A validação com teclado físico permanece pendente.
 
 Ctrl+Y executa Command+←, Command+Shift+→, Shift+→ e Backspace para selecionar e apagar a linha e a quebra seguinte, quando houver. A navegação por linha depende do aplicativo e pode considerar linhas visuais em textos com quebra automática. O comportamento em aplicativos ainda precisa de validação prática.
 
