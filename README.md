@@ -31,6 +31,8 @@ Atalhos com Control para macOS usando o Karabiner-Elements. A configuração inc
 
 ## Instalação
 
+Para execução por uma IA com acesso ao Mac, utilize o [procedimento de configuração automática](CONFIGURAR-COM-IA.md).
+
 1. Instale o [Karabiner-Elements pelo site oficial](https://karabiner-elements.pqrs.org/).
 2. Conclua as etapas indicadas em Setup para serviços em segundo plano, Acessibilidade e extensão do teclado virtual.
 3. Selecione o perfil desejado e abra Complex Modifications → Add your own rule.
