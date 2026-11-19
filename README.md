@@ -1,6 +1,6 @@
 # Atalhos do Windows no Mac
 
-Configuração pessoal para o Karabiner-Elements, exportada do perfil ativo em 19/11/2026.
+Atalhos com Control para macOS usando o Karabiner-Elements. A configuração inclui navegação, seleção de texto, copiar, recortar e colar, além da personalização Ctrl+Y para apagar a linha atual.
 
 ## Atalhos
 
