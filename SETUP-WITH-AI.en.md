@@ -98,4 +98,4 @@ If applying the rule causes a configuration error, restore the backup and confir
 - [Required macOS settings](https://karabiner-elements.pqrs.org/docs/manual/misc/required-macos-settings/)
 - [Configuration file location](https://karabiner-elements.pqrs.org/docs/manual/misc/configuration-file-path/)
 
-For the Control+click rule in Finder, enable Modify events for a compatible mouse in Devices and test selecting, adding, and deselecting files. Karabiner does not support clicks from Apple pointing devices, including the built-in trackpad. Report this limitation when applicable.
+For the Control+click rule in Finder and My Explorer, enable Modify events for a compatible mouse in Devices and test selecting, adding, and deselecting files. Karabiner does not support clicks from Apple pointing devices, including the built-in trackpad. Report this limitation when applicable.

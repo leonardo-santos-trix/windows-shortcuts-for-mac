@@ -30,7 +30,7 @@ Atalhos com Control para macOS usando o Karabiner-Elements. A configuração inc
 | Ctrl+Shift+End | Selecionar até o fim do documento |
 | Ctrl+Shift+Home | Selecionar até o início do documento |
 | Ctrl+Y | Apagar a linha atual |
-| Ctrl+clique | Alternar a seleção de arquivos no Finder |
+| Ctrl+clique | Alternar a seleção de arquivos no Finder e no My Explorer |
 
 ## Instalação
 
@@ -65,4 +65,4 @@ ruby -rjson -e 'r = JSON.parse(File.read("atalhos-windows-karabiner.json")); m =
 
 Edite a regra versionada, valide e aplique o conteúdo atualizado no Karabiner. Registre as alterações em commits Git. Para desativar os remapeamentos, desabilite ou remova a regra em Complex Modifications.
 
-Para Control+clique, habilite Modify events no mouse em Devices. A regra é restrita ao Finder. Dispositivos apontadores Apple, incluindo o trackpad integrado, não são suportados por esse remapeamento do Karabiner.
+Para Control+clique, habilite Modify events no mouse em Devices. A regra é restrita ao Finder e ao My Explorer. Dispositivos apontadores Apple, incluindo o trackpad integrado, não são suportados por esse remapeamento do Karabiner.

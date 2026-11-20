@@ -98,4 +98,4 @@ Se a aplicação da regra causar erro de configuração, restaure a cópia de se
 - [Configurações exigidas pelo macOS](https://karabiner-elements.pqrs.org/docs/manual/misc/required-macos-settings/)
 - [Localização da configuração](https://karabiner-elements.pqrs.org/docs/manual/misc/configuration-file-path/)
 
-Para a regra de Control+clique no Finder, habilite Modify events no mouse compatível em Devices e teste selecionar, adicionar e desmarcar arquivos. O Karabiner não suporta os cliques de dispositivos apontadores Apple, incluindo o trackpad integrado. Registre essa limitação quando aplicável.
+Para a regra de Control+clique no Finder e no My Explorer, habilite Modify events no mouse compatível em Devices e teste selecionar, adicionar e desmarcar arquivos. O Karabiner não suporta os cliques de dispositivos apontadores Apple, incluindo o trackpad integrado. Registre essa limitação quando aplicável.
