@@ -30,6 +30,7 @@ Control-based shortcuts for macOS using Karabiner-Elements. The configuration in
 | Ctrl+Shift+End | Select to the end of the document |
 | Ctrl+Shift+Home | Select to the beginning of the document |
 | Ctrl+Y | Delete the current line |
+| Ctrl+click | Toggle file selection in Finder |
 
 ## Installation
 
@@ -63,3 +64,5 @@ ruby -rjson -e 'r = JSON.parse(File.read("atalhos-windows-karabiner.json")); m =
 ## Maintenance
 
 Edit the versioned rule, validate it, and apply the updated contents in Karabiner. Record changes in Git commits. To disable the remappings, disable or remove the rule in Complex Modifications.
+
+For Control+click, enable Modify events for the mouse in Devices. The rule applies to Finder. Apple pointing devices, including the built-in trackpad, are unsupported by this Karabiner remapping.

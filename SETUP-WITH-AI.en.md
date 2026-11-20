@@ -28,7 +28,7 @@ If a local copy already exists, check its remote and working tree before using i
 
 The input file is `atalhos-windows-karabiner.json` at the repository root. Also read AGENTS.md and README.en.md. Record the commit or version obtained.
 
-Validate the JSON, the presence of description and manipulators, rule types, and the absence of duplicate from entries. Use the current file as the source of the shortcuts. This procedure was prepared when the configuration contained 22 combinations.
+Validate the JSON, the presence of description and manipulators, rule types, and the absence of duplicate from entries. Use the current file as the source of the shortcuts. This procedure was prepared when the configuration contained 23 combinations.
 
 ## 3. Install and prepare Karabiner
 
@@ -97,3 +97,5 @@ If applying the rule causes a configuration error, restore the backup and confir
 - [Karabiner-Elements installation](https://karabiner-elements.pqrs.org/docs/getting-started/installation/)
 - [Required macOS settings](https://karabiner-elements.pqrs.org/docs/manual/misc/required-macos-settings/)
 - [Configuration file location](https://karabiner-elements.pqrs.org/docs/manual/misc/configuration-file-path/)
+
+For the Control+click rule in Finder, enable Modify events for a compatible mouse in Devices and test selecting, adding, and deselecting files. Karabiner does not support clicks from Apple pointing devices, including the built-in trackpad. Report this limitation when applicable.

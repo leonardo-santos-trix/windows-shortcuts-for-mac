@@ -28,7 +28,7 @@ Se já houver uma cópia local, confira seu remoto e estado antes de usá-la. Ca
 
 O arquivo de entrada é `atalhos-windows-karabiner.json` na raiz do repositório. Leia também AGENTS.md e README.md. Registre o commit ou a versão obtida.
 
-Valide o JSON, a presença de description e manipulators, os tipos das regras e a ausência de entradas from duplicadas. Use a versão atual do arquivo como fonte dos atalhos. Este procedimento foi preparado quando a configuração continha 22 combinações.
+Valide o JSON, a presença de description e manipulators, os tipos das regras e a ausência de entradas from duplicadas. Use a versão atual do arquivo como fonte dos atalhos. Este procedimento foi preparado quando a configuração continha 23 combinações.
 
 ## 3. Instalar e preparar o Karabiner
 
@@ -97,3 +97,5 @@ Se a aplicação da regra causar erro de configuração, restaure a cópia de se
 - [Instalação do Karabiner-Elements](https://karabiner-elements.pqrs.org/docs/getting-started/installation/)
 - [Configurações exigidas pelo macOS](https://karabiner-elements.pqrs.org/docs/manual/misc/required-macos-settings/)
 - [Localização da configuração](https://karabiner-elements.pqrs.org/docs/manual/misc/configuration-file-path/)
+
+Para a regra de Control+clique no Finder, habilite Modify events no mouse compatível em Devices e teste selecionar, adicionar e desmarcar arquivos. O Karabiner não suporta os cliques de dispositivos apontadores Apple, incluindo o trackpad integrado. Registre essa limitação quando aplicável.

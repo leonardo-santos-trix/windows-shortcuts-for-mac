@@ -4,6 +4,33 @@
     {
       "type": "basic",
       "from": {
+        "pointing_button": "button1",
+        "modifiers": {
+          "mandatory": [
+            "control"
+          ]
+        }
+      },
+      "to": [
+        {
+          "pointing_button": "button1",
+          "modifiers": [
+            "left_command"
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "type": "frontmost_application_if",
+          "bundle_identifiers": [
+            "^com\\.apple\\.finder$"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "basic",
+      "from": {
         "key_code": "up_arrow",
         "modifiers": {
           "mandatory": [
